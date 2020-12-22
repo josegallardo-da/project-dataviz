@@ -18,7 +18,7 @@ All data extracted regards Mexico's international operations (imports & exports)
 
 To have a better understanding of the description above, the following the imahes are presented ... 
 
-![https://github.com/josegallardo-da/project-dataviz/blob/master/img/Dash.gif](Dash.gif)
+![Alt Text](https://github.com/josegallardo-da/project-dataviz/blob/master/img/Dash.gif)
 
 <a name="workflow"></a>
 
