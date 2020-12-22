@@ -1,6 +1,6 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Extracting Data from the UN COMTRADE DATABASE
+# Data Visualizations: Creating an Interactive Dashboard
 *[Jose Gallardo]*
 
 *[Data Analytics Part Time, Ironhack Mexico City]*
@@ -12,18 +12,13 @@
 <a name="project-description"></a>
 
 ## Project Description
-The purpose behind this project is to be able to extract all data regarding Mexico's international operations (imports & exports), using UN COMTRADE DATABASE's Public API.
+The purpose behind this project is to be develop a Dashboard that enables its users to filter and explore the data extracted
+from the UN COMTRADE DATABASE, providing different visualizations: heatmap, sankey graphs, pie charts and line graphs.
+All data extracted regards Mexico's international operations (imports & exports).
 
-After exploring the data through different queries in Postman, the following insights were gathered:
+To have a better understanding of the description above, the following the imahes are presented ... 
 
-Mexico started reporting its operations until 1990, so prior to this year, all data is unavailable.
-
-From 1990 to 2009, all data reported by Mexico was recorded by Year, so we are not going to be able to explore how trade perfomed month by month in this time period.
-
-Keep in mind the following ...
-
-Public Users have only access to 1000 queries per hour, 1 query per second. *Queries should be specific and simple.
-So, the challenge was to create a program that automatically extracts the data considering all the restrictions that we Public Users have.
+![https://github.com/josegallardo-da/project-dataviz/blob/master/img/Dash.gif](Dash.gif)
 
 <a name="workflow"></a>
 
