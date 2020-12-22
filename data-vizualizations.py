@@ -30,13 +30,13 @@ from pyautogui import password
 
 """
 mx_trade = data_prettifier(data_extraction())
-mx_trade.to_json(f'{getcwd()}\\mexico-trade-data.json', orient='records')
+mx_trade.to_json(f'{getcwd()}\\data\\mexico-trade-data.json', orient='records')
 """
 
 # Having the data as a json file, we are going to keep as a comment the code above ...
 
 # -- Using Pandas to read data
-mx_trade = pd.read_json('mexico-trade-data.json', orient='records')
+mx_trade = pd.read_json(f'{getcwd()}\\data\\mexico-trade-data.json', orient='records')
 
 # -- Preparing Data for Vizualizations
 mx_trade = mx_trade.sort_values(by=['Period'], ignore_index = True)
